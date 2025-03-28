@@ -15,7 +15,8 @@ npm run dev
 ```
 ### References
 - [Chakra UI](https://chakra-ui.com/docs/get-started/frameworks/vite)
-- [Mapbox GL](https://docs.mapbox.com/help/tutorials/use-mapbox-gl-js-with-react)
+- [Mapbox GL with React](https://docs.mapbox.com/help/tutorials/use-mapbox-gl-js-with-react)
+- [Mapbox initial config](https://docs.mapbox.com/mapbox-gl-js/example/initial-config-property/)
 
 #### Local Development
 

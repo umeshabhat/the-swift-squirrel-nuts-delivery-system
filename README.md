@@ -58,4 +58,5 @@ export default tseslint.config({
 ### Installation - Additional steps
 ```bash
 npm i @chakra-ui/react @emotion/react
+npx @chakra-ui/cli snippet add
 ```

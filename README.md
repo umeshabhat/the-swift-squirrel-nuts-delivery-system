@@ -1,8 +1,32 @@
 # The Swift Squirrel
 _The World's Finest Package Delivery Service, and Nuts._
 
-## React + TypeScript + Vite + Chakra UI + Supabase
+## React + Vite + Chakra UI + Mapbox + Supabase
 
+### How to Run
+
+1. Clone the repository to your machine
+2. Ensure you have the prerequisites (npm) setup.
+3. Install the dependencies:
+
+```bash
+npm install
+npm run dev
+```
+### References
+- [Chakra UI](https://chakra-ui.com/docs/get-started/frameworks/vite)
+- [Mapbox GL](https://docs.mapbox.com/help/tutorials/use-mapbox-gl-js-with-react)
+
+#### Local Development
+
+```bash
+### Chakra UI
+npm i @chakra-ui/react @emotion/react
+npx @chakra-ui/cli snippet add
+
+### Mapbox GL
+npm install mapbox-gl
+```
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
@@ -10,7 +34,7 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-### Expanding the ESLint configuration
+##### Expanding the ESLint configuration
 
 If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
@@ -54,9 +78,4 @@ export default tseslint.config({
     ...reactDom.configs.recommended.rules,
   },
 })
-```
-### Installation - Additional steps
-```bash
-npm i @chakra-ui/react @emotion/react
-npx @chakra-ui/cli snippet add
 ```
